@@ -12,7 +12,7 @@
 	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
 		<spring.security.version>3.2.0.RELEASE</spring.security.version>
-		<jackson.version>2.6.3</jackson.version>
+		<jackson.version>2.10.0</jackson.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -59,17 +59,6 @@
 		</dependency>
 
 		<!-- Jackson JSON Mapper -->
-		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-mapper-asl</artifactId>
-			<version>1.9.13</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>${jackson.version}</version>
-		</dependency>
-
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
