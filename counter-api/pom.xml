@@ -10,7 +10,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>4.3.17</spring.version>
+		<spring.version>6.0.0</spring.version>
 		<spring.security.version>4.1.1</spring.security.version>
 		<jackson.version>2.10.0</jackson.version>
 	</properties>
